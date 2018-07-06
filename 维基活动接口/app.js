@@ -8,6 +8,8 @@ app.use('/banner',express.static('./uploaded'))
 app.set('view engine','ejs')
 router.index(app)
 
+
+
 app.listen(config.port,()=>{
     console.log('server is running')
 })

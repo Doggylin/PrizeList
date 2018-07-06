@@ -2,9 +2,9 @@ const express = require('express')
 const activity = require('../model/activityModel')
 const router = express.Router()
 router.get('/',async (req,res)=>{
-    var result = await activity.find({})
+    //var result = await activity.find({})
     res.render('home',{
-        'models':result
+        //'models':result
     })
   
 })
