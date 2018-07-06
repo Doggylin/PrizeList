@@ -1,7 +1,7 @@
 const express = require('express')
 const router = require('./router/index.js')
 const config = require('./config/default')
-const db = require('./mongodb/db')
+// const db = require('./mongodb/db')
 const app = express()
 
 app.use('/banner',express.static('./uploaded'))
