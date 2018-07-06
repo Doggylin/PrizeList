@@ -88,7 +88,7 @@ class ActivityHandle{
                         'uploadtime' : time,
                         'title' : title,
                         'detail' : detail,
-                        'uploadpath' : "http://localhost:" + config.port + '/banner/' + imgName
+                        'uploadpath' : imgName
                     }
                     await ActivityM.create(new_activity)
                     console.log('活动添加成功')
